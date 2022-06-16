@@ -1,0 +1,23 @@
+.estilo{
+    background-color: brown;
+}
+
+.estiloEsp1{
+    background-color: aquamarine;
+}
+.estiloEsp2{
+    background-color: rgb(56, 60, 127);
+}
+.estiloEsp3{
+    background-color: rgb(173, 197, 88);
+}
+.estiloEsp4{
+    background-color: rgb(255, 127, 191);
+}
+
+.menu{
+    background-color: burlywood;
+}
+.contenido{
+    background-color: cadetblue;
+}
