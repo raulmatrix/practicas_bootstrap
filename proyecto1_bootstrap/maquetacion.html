@@ -7,6 +7,10 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/estilomaqueta.css">
+    
+<script src="javascript/bootstrap.js"></script>
+<script src="javascript/jquery.js"></script>
+<script src="javascript/popper.js"></script>
 </head>
 <body>
     <div class="container-fluid">
@@ -33,12 +37,25 @@
 
             </div>
         </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <h4>Lista Productos</h4>
+                <kbd>Ctrl+x</kbd>
+                
+                <p class="text-right">Este es un texto prueba</p>
+            
+            </div>
+        </div>
         <div class="row"><!--texto y google maps-->
             <div class="col-sm-2">
 
             </div>
             <div class="col-sm-4" id="parrafo">
-                texto y parrafo
+                <h4>Lista Productos</h4>
+                <p class="bg-primary">Texto Importante</p>
+                <p class="bg-success">Datos Guardados</p>
+                <p class="bg-danger">Error en registros</p>
+                
             </div>
             <div class="col-sm-4" id="maps">
                 google maps
@@ -91,11 +108,91 @@
             </div>
         </div>
 
+        <div class="row">
+            <div class="col-sm-12">
+                <h4>Lista Estudiantes</h4>
+                <table class="table-bordered">
+                    <tr>
+                        <th>Nombres</th>
+                        <th>Apellidos</th>
+                        <th>Carrera</th>
+                        <th>Sexo</th>
+                    </tr>
+                    <tr>
+                        <td>Juan</td>
+                        <td>Perez</td>
+                        <td>Sistemas</td>
+                        <td>Masculino</td>
+                    </tr>
+                    <tr>
+                        <td>Alicia</td>
+                        <td>ROjas</td>
+                        <td>Secretariado</td>
+                        <td>Femenino</td>
+                    </tr>
+                    <tr>
+                        <td>Aldo</td>
+                        <td>Peredo</td>
+                        <td>Sistemas</td>
+                        <td>Masculino</td>
+                    </tr>
+                </table>
+            
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <h4>Galeria Imagenes</h4>
+                <img class="img-fluid" src="img/31377-3d.jpg" width="500" height="500" alt="">
+                <img class="img-fluid" src="img/31386-3d.jpg" width="500" height="500" alt="">
+                
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <h4>Alertas</h4>
+               <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                 <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                   <span aria-hidden="true">&times;</span> 
+                 </button>
+                 
+                 <strong>Este es una alerta de advertencia</strong> 
+               </div>
+               
+               <script>
+                 $(".alert").alert();
+               </script>
+
+               <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                 <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                   <span aria-hidden="true">&times;</span>
+                 </button>
+                 <strong>Texto de prueba</strong> 
+               </div>
+               
+               <script>
+                 $(".alert").alert();
+               </script>
+
+               <div class="btn-group" role="group" aria-label="">
+                   <button type="button" class="btn btn-primary">Inicio</button>
+                   <button type="button" class="btn btn-primary">Reportes</button>
+                   <button type="button" class="btn btn-primary">Contactos</button>
+               </div>
+
+               <div class="card">
+                   <img class="card-img-top" src="holder.js/100x180/" alt="">
+                   <div class="card-body">
+                       <h4 class="card-title">Informacion Estudiante</h4>
+                       <p class="card-text">Aqui van los datos personales</p>
+                   </div>
+               </div>
+
+            </div>
+        </div>
+
     </div>
 
 
-<script src="javascript/bootstrap.js"></script>
-<script src="javascript/jquery.js"></script>
-<script src="javascript/popper.js"></script>
 </body>
 </html>
